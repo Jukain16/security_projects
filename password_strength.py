@@ -1,5 +1,7 @@
 def main():
     password = input()
+    check_length(password)
+    check_symbol(password)
 
 
 
@@ -16,3 +18,10 @@ def check_length(password):
 
 def check_symbol(password):
     password_list = password.split()
+
+
+
+
+
+
+main()
